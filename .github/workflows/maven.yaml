@@ -12,7 +12,7 @@ jobs:
           submodules: true  # Fetches all submodules
       - uses: actions/setup-java@v5
         with:
-          distribution: 'graalvm' # See 'Supported distributions' for available options
+          distribution: 'temurin'
           java-version: '17'
       - name: Maven build
         run: ./mvnw --batch-mode --no-transfer-progress verify --file pom.xml
