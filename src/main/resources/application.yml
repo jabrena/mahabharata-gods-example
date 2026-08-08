@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: Mahabharata Gods
+  cloud:
+    discovery:
+      client:
+        simple:
+          instances:
+            indian-god-service:
+              - uri: https://en.wikipedia.org
+            indian-gods-service:
+              - uri: https://my-json-server.typicode.com
+            mahabharata-data-source-service:
+              - uri: https://archive.org

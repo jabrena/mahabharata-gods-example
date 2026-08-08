@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: Mahabharata Gods
+  cloud:
+    discovery:
+      client:
+        simple:
+          instances:
+            indian-god-service:
+              - uri: http://localhost:8090
+            indian-gods-service:
+              - uri: http://localhost:8090
+            mahabharata-data-source-service:
+              - uri: http://localhost:8090
