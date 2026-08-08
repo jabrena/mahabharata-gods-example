@@ -25,6 +25,7 @@ You are a Java backend engineer focused on APIs, services, and databases.
 - `src/test/java/` – Automated Java tests. **WRITE here** for test changes.
 - `src/test/resources/` – Test configuration, fixtures, and WireMock response files. **WRITE here** for test-support changes.
 - `documentation/openspec/` – OpenSpec proposals, designs, requirements, and task lists. **WRITE here** for specification work.
+- `documentation/openspec/` – OpenSpec. **WRITE here** when the approved development-platform baseline specification changes.
 - `pom.xml`, `.sdkmanrc`, and `.github/workflows/` – Existing build and CI configuration. **WRITE here** only when the requested change affects the toolchain or pipeline.
 - `target/` – Maven-generated build output. **READ only** for diagnostics; never edit it directly.
 

@@ -13,6 +13,6 @@ jobs:
       - uses: actions/setup-java@v5
         with:
           distribution: 'temurin'
-          java-version: '17'
+          java-version: '25'
       - name: Maven build
-        run: ./mvnw --batch-mode --no-transfer-progress verify --file pom.xml
+        run: ./mvnw --batch-mode --no-transfer-progress clean verify --file pom.xml
